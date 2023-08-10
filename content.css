@@ -13,6 +13,7 @@
     
     -webkit-background-clip: text;
     color: transparent;
+    text-align: center;
 }
 .content h2{
     margin-top: 50px;
@@ -21,13 +22,15 @@
     
     -webkit-background-clip: text;
     color: transparent;
+    text-align: center;
 }
 .content div{
     width: 70%;
     margin-top: 50px;
 }
 .content h3{
-    color: #886565;         
+    color: #886565;     
+    text-align: center;
 }
 
 
