@@ -109,7 +109,7 @@ nav label .hamburger
 }
 nav label:hover .hamburger
 {
-    background-color: rgb(131, 121, 151); 
+    background-color: rgb(191, 181, 171); 
     transition: 0.5s;
 }
 
