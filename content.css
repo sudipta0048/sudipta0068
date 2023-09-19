@@ -14,6 +14,8 @@
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
+    text-transform: uppercase;
+    
 }
 .content h2{
     margin-top: 50px;
