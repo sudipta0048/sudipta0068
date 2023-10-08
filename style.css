@@ -27,13 +27,13 @@ nav
     border-radius: 5px;
     z-index: 15;
 }
-nav nav-logo
+nav .nav-logo
 {
     
     margin-left: 5%;
     background-color: #6f4e3700;
 }
-nav nav-logo h1
+nav .nav-logo h1
 {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -45,7 +45,7 @@ nav nav-logo h1
     
     
 }
-nav nav-links
+nav .nav-links
 {
     margin-right: 2%;
     display: flex;
@@ -55,7 +55,7 @@ nav nav-links
     box-sizing: border-box;
 
 }
-nav nav-links a
+nav .nav-links a
 {
     height: 50px;
     width: 150px;
@@ -75,20 +75,20 @@ nav nav-links a
     transition: 0.5s;
     box-sizing: border-box;
 }
-nav nav-links a span
+nav .nav-links a span
 {
     text-align: center;
     background-color: #6f4e3700;
     transition: 0.5s;
     height: 46px;
 }
-nav nav-links a:hover
+nav .nav-links a:hover
 {
     border: 2px solid #24231f ;
     
     transition: 0.5s;
 }
-nav nav-links a.active 
+nav .nav-links a.active 
 {
     border: 2px solid #24231f ;
 }
@@ -120,7 +120,7 @@ nav label:hover .hamburger
         display: block;
         transition: 0.5s;
     }
-    nav nav-links a
+    nav .nav-links a
     {
         margin: 3px;
         width: 230px;
@@ -135,7 +135,7 @@ nav label:hover .hamburger
 
     } 
     
-    nav nav-links
+    nav .nav-links
     {
         position: absolute;
         top: 80px;
@@ -154,7 +154,7 @@ nav label:hover .hamburger
         transition: 0.5s;
         
     }
-    nav input:checked~ nav-links
+    nav input:checked~ .nav-links
 
     {
         transform: translateX(-2%);
